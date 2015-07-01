@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>A Reminder of Location</title>
+		<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- this is a polymer project -->
+    <script src="bower_components/webcomponentsjs/webcomponents.min.js"></script>
+    <link rel="import" href="elements/app-main.html">
+    <style>
+    	body{
+    		margin:0;
+    		background-color: #edecea;
+    	}
+    </style>
+	</head>
+	<body>
+		<!-- hidden -->
+		<div id="mapContainer" hidden></div>
+		<app-main></app-main>
+		<div style="width:100%;">
+		<div id="tip">
+			<h1>请输入关键字：</h1>
+			<input type="text" id="keyword" name="keyword" value=""  style="width: 95%;"/>
+		    <div id="result1" name="result1"></div>
+		    <div id="result"></div>
+		</div>
+		<!-- content -->
+		<div class="test">location result</div>
+		</div>
+		<!-- scripts -->
+  	<script src="http://webapi.amap.com/maps?v=1.3&key=95970df55995c38556e854d766a7ec08"></script>
+		<script data-main="app" src="bower_components/requirejs/require.js"></script>
+	</body>
+</html>
