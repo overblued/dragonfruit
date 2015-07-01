@@ -1,12 +1,25 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.triway.dragonfruit" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>DaoLeMei</name>
-    <description>
-        A sample Apache Cordova application that responds to the deviceready event.
-    </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
-    </author>
-    <content src="index.html" />
-    <access origin="*" />
+	<name>Dragonfruit</name>
+	<description>
+	    Dragonfruit is a location reminder app.
+	</description>
+	<author email="bangyi.jiang@outlook.com" href="http://cordova.io">team dragonfruit</author>
+	<content src="index.html" />
+	<access origin="*" />
+	<platform name="android">
+    <icon src="res/android/ldpi.png" density="ldpi" />
+    <icon src="res/android/mdpi.png" density="mdpi" />
+    <icon src="res/android/hdpi.png" density="hdpi" />
+    <icon src="res/android/xhdpi.png" density="xhdpi" />
+	  <splash src="res/screen/android/splash-land-hdpi.png" density="land-hdpi"/>
+		<splash src="res/screen/android/splash-land-ldpi.png" density="land-ldpi"/>
+		<splash src="res/screen/android/splash-land-mdpi.png" density="land-mdpi"/>
+		<splash src="res/screen/android/splash-land-xhdpi.png" density="land-xhdpi"/>
+
+		<splash src="res/screen/android/splash-port-hdpi.png" density="port-hdpi"/>
+		<splash src="res/screen/android/splash-port-ldpi.png" density="port-ldpi"/>
+		<splash src="res/screen/android/splash-port-mdpi.png" density="port-mdpi"/>
+		<splash src="res/screen/android/splash-port-xhdpi.png" density="port-xhdpi"/>
+	</platform>
 </widget>

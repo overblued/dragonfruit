@@ -1,13 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.triway.dragonfruit" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <preference name="loglevel" value="DEBUG" />
-    <name>DaoLeMei</name>
+    <icon density="ldpi" src="res/android/ldpi.png" />
+    <icon density="mdpi" src="res/android/mdpi.png" />
+    <icon density="hdpi" src="res/android/hdpi.png" />
+    <icon density="xhdpi" src="res/android/xhdpi.png" />
+    <name>Dragonfruit</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Dragonfruit is a location reminder app.
     </description>
-    <author email="dev@cordova.apache.org" href="http://cordova.io">
-        Apache Cordova Team
-    </author>
+    <author email="bangyi.jiang@outlook.com" href="http://cordova.io">team dragonfruit</author>
     <content src="index.html" />
     <access origin="*" />
 </widget>
